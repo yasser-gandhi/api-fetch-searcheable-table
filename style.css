@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin-top: 60px;
+}
+
+h2{
+    margin: 50px;
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 18px;
+    margin: 45px;
+    width: 100vh;
+    text-align: left;
+}
+
+th {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff; color: #039; }
+
+td {
+    padding: 8px;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid transparent;
+    color: #669;
+}
+
+tr:hover td {
+    background: #d0dafd;
+    color: #339;
+}
+input{
+    background: #fff27e;
+    margin: 10px;
+    padding: 10px;
+    float:right;
+    margin-right: 55%;
+}
